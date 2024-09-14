@@ -12,7 +12,7 @@
 
 (defalias
   ;; Main mod-tap: Nav layer when held, Space when tapped.
-  nav (tap-hold $tap_timeout $long_hold_timeout spc (layer-while-held navigation))
+  nav (tap-hold $tap_timeout $hold_timeout spc (layer-while-held navigation))
 
   ;; Space-cadet thumb keys: Alt/BackSpace, AltGr/Enter.
   ;; Acts as a modifier by default, or as BackSpace/Enter when tapped separately.
