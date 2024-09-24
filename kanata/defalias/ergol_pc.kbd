@@ -1,5 +1,11 @@
 ;; Ergo‑L Windows/Linux aliases
 
+;; Base layer
+(defalias
+
+  bsw C-bspc
+)
+
 ;; Navigation layer
 (defalias
 
