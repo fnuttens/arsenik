@@ -157,6 +157,22 @@ without holding the key until escaped with <kbd>Alt</kbd> or <kbd>AltGr</kbd>.
   <em>Fn layer toggled</em>
 </p>
 
+##### HRM friendly variant
+
+The basic `Navigation` layer’s `WASZXCV` shortcuts are useful for some layouts, but they can be seen as a waste of layer space when using Home Row Mods.
+
+This variant replaces QWERTY shorcuts by the following:
+- cross-platform quit shortcut
+- HRM optimized `tab` and `S-tab`
+- easy to use `escape` and `delete`
+- three empty spots for your own keys or layers
+
+![HRM friendly Vim navigation layer on a 33-key keyboard](./img/vim_hrm_navigation.svg)
+
+Furthermore, the `Fn` layer is modified to have media controls instead of modifiers:
+
+![HRM friendly Fn layer on a 33-key keyboard](./img/fn_hrm.svg)
+
 ### 5. Keyboard layout
 
 Choose your keyboard layout among the available ones for Arsenik to work
